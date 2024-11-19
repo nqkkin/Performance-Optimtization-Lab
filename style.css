@@ -1,31 +1,33 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #0073e6;
-    color: white;
-    padding: 1em;
-    text-align: center;
-  }
-  
-  main {
-    padding: 2em;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1em;
-  }
-  
-  footer {
-    text-align: center;
-    margin-top: 2em;
-    padding: 1em;
-    background: #f4f4f4;
-  }
-  
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0073e6;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.gallery {
+  padding: 2em;
+}
+
+.gallery-images img {
+  width: 30%;
+  margin: 1%;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #f4f4f4;
+}
